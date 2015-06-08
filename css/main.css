@@ -86,6 +86,7 @@ p{
   font-weight: 300;
   font-size: 15px;
   text-decoration: none;
+  display: block;
   color: #5E3B9F;
   transition: background-color 0.5s ease-out,
               color 0.5s ease-out;
@@ -93,7 +94,8 @@ p{
 
 .navbar-nav a:hover, 
 .navbar-nav a:focus {
-  display: inline-block;
+  display: block;
+  padding-bottom: 5px;
   text-decoration: none;
   border-bottom: 1px dashed #5E3B9F;
     font-weight: 700;

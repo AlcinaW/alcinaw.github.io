@@ -1,0 +1,29 @@
+body {
+	font-size: 16px;
+	color: #acacac;
+	background-color: #fefaf2;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 3.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #232323;
+}
+h2 {
+	font-family: 'Oswaldo', serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	font-style: italic;
+}
+.block {
+	background-color: #f6d085;
+	height: 2em;
+}
+#section-1 {
+
+}
+#section-2 {
+	
+}

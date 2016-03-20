@@ -1,0 +1,17 @@
+/* Basic Styles for body */ 
+body { 
+
+}
+/* For centering items */
+.is-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    text-align: center;
+}
+
+section { 
+	margin-top: 15%
+} 
+
+/* 1688 x 864*/

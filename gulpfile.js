@@ -3,6 +3,8 @@ var gulp = require('gulp');
 // Requires the gulp-sass plugin
 var sass = require('gulp-sass');
 
+var handlebars = require('handlebars');
+
 var browserSync = require('browser-sync').create();
 
 gulp.task('hello', function() {

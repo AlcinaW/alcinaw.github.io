@@ -1,2 +1,18 @@
-.testing {
-  width: 71.42857%; }
+.body {
+  background: white;
+  font-size: 15px; }
+
+.jumbotron {
+  height: 5em;
+  background-color: #ababab;
+  /*default*/
+  transition: background-color 3s ease;
+  /* future-proof */
+  -webkit-transition: background-color 3s ease;
+  -moz-transition: background-color 3s ease;
+  -o-transition: background-color 3s ease;
+  -ms-transition: background-color 3s ease;
+  /* IE10+ only */ }
+
+.navbar {
+  margin-bottom: 0px; }

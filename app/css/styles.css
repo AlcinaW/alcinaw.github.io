@@ -3,16 +3,27 @@
   font-size: 15px; }
 
 .jumbotron {
-  height: 5em;
   background-color: #ababab;
   /*default*/
   transition: background-color 3s ease;
   /* future-proof */
   -webkit-transition: background-color 3s ease;
-  -moz-transition: background-color 3s ease;
   -o-transition: background-color 3s ease;
+  -moz-transition: background-color 3s ease;
   -ms-transition: background-color 3s ease;
-  /* IE10+ only */ }
+  /* IE10+ only */
+  padding: 5em inherit;
+  min-height: 100vh; }
 
 .navbar {
   margin-bottom: 0px; }
+
+.project-descrip {
+  height: 500px;
+  border: 1px solid #acacac; }
+
+h1 {
+  text-transform: uppercase; }
+
+.project p {
+  text-transform: uppercase; }

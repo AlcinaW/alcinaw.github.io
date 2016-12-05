@@ -1,11 +1,10 @@
 var gulp = require('gulp');
-
-// Requires the gulp-sass plugin
-var sass = require('gulp-sass');
-
 //var handlebars = require('handlebars');
 
 var browserSync = require('browser-sync').create();
+
+// Requires the gulp-sass plugin
+var sass = require('gulp-sass');
 
 gulp.task('hello', function() {
   console.log('Hi!!');
@@ -29,8 +28,9 @@ gulp.task('sass', function() {
 });
 
 gulp.task('watch', ['browserSync', 'sass'], function (){
-  gulp.watch('app/scss/**/*.scss', ['sass']);
+  gulp.watch('app/scss/*.scss', ['sass']);
+  gulp.watch('app/css/*.css', browserSync.reload);
   // Reloads the browser whenever HTML or JS files change
   gulp.watch('app/*.html', browserSync.reload);
-  gulp.watch('app/js/**/*.js', browserSync.reload);
+  gulp.watch('app/js/*.js', browserSync.reload);
 });

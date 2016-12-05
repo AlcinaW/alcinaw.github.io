@@ -2,8 +2,26 @@
   background: white;
   font-size: 15px; }
 
+.navbar {
+  margin-bottom: 0px;
+  padding-right: 1em; }
+
+.project-descrip {
+  border: 1px solid #acacac;
+  min-height: 25em; }
+
+h1 {
+  text-transform: uppercase; }
+
+.projects img {
+  background-color: #fff;
+  overflow: hidden; }
+
+.projects button {
+  text-transform: uppercase; }
+
 .jumbotron {
-  background-color: #ababab;
+  background-color: #efefef;
   /*default*/
   transition: background-color 3s ease;
   /* future-proof */
@@ -14,16 +32,3 @@
   /* IE10+ only */
   padding: 5em inherit;
   min-height: 100vh; }
-
-.navbar {
-  margin-bottom: 0px; }
-
-.project-descrip {
-  height: 500px;
-  border: 1px solid #acacac; }
-
-h1 {
-  text-transform: uppercase; }
-
-.project p {
-  text-transform: uppercase; }

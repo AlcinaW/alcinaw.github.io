@@ -85,7 +85,7 @@ function rgb2hex(colorArray) {
 // Duration is not what it says. It's a multiplier in the calculateIncrement() function.
 // duration = 1-4, fast-to-slow
 var fps				= 30;
-var duration		= 4;
+var duration		= 3;
 var transElement	= document.querySelector(".jumbotron");
 var currentColor	= getElementBG(transElement);
 var transHandler	= null;

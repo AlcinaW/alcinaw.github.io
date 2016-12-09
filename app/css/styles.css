@@ -1,3 +1,6 @@
+html {
+  font-family: sans-serif; }
+
 .body {
   background: white;
   font-size: 15px; }
@@ -13,12 +16,20 @@
 h1 {
   text-transform: uppercase; }
 
-.projects img {
-  background-color: #fff;
-  overflow: hidden; }
-
-.projects button {
-  text-transform: uppercase; }
+.projects {
+  background: #000; }
+  .projects .project-preview {
+    height: 25em;
+    width: 25em;
+    background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/lettering-1.png"); }
+  .projects p {
+    font-family: cursive; }
+  .projects button {
+    text-transform: uppercase; }
 
 .jumbotron {
   background-color: #efefef;

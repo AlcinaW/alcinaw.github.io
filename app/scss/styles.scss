@@ -1,30 +1,32 @@
 // styles.scss
+
+html {
+  font-family: sans-serif; }
 .body {
   background: white;
-  font-size: 15px;
-}
-
+  font-size: 15px; }
 .navbar {
     margin-bottom: 0px;
-    padding-right: 1em;
-}
-
+    padding-right: 1em; }
 .project-descrip {
     border: 1px solid #acacac;
-        min-height: 25em;
-}
+        min-height: 25em; }
 h1 {
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 .projects {
-  img {
-  }
+  background: #000;
+  .project-preview {
+    height: 25em;
+    width: 25em;
+    background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/lettering-1.png"); }
   p {
-
-  }
+    font-family: cursive; }
   button {
-    text-transform: uppercase;
-  }
+    text-transform: uppercase; }
 }
 
 .jumbotron {
@@ -35,5 +37,4 @@ h1 {
   -moz-transition: background-color 3s ease;
   -ms-transition: background-color 3s ease;/* IE10+ only */
   padding: 5em inherit;
-  min-height: 100vh;
-}
+  min-height: 100vh; }

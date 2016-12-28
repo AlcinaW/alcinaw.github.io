@@ -2,7 +2,7 @@
 
 html {
   font-family: sans-serif; }
-.body {
+body {
   background: white;
   font-size: 15px; }
 .navbar {
@@ -11,26 +11,37 @@ html {
 .project-descrip {
     border: 1px solid #acacac;
         min-height: 25em; }
-h1 {
-  text-transform: uppercase; }
+  h1 {
+    text-transform: uppercase;
+    .smile {font-size: 1.6em;
+      color: #f35626;
+      background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: hue 60s infinite linear;}
+  }
+
+  footer {
+    p {
+    text-align: center; }
+  }
+
 .projects {
-  background: #000;
-  .project-preview {
-    height: 25em;
-    width: 25em;
-    background-origin: border-box;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../images/lettering-1.png"); }
+  background: #fff;
+  .project-one {
+    border: 1px solid red;}
+  .project-descrip {
+    background: url(../images/lettering-1.png);
+    height: 30em;}
   p {
-    font-family: cursive; }
+    font-family: Arial; }
   button {
     text-transform: uppercase; }
 }
 
 .jumbotron {
   background-color: #efefef;/*default*/
+  /* background: no-repeat center/100% url("../images/tachi-8.jpg"); */
   transition: background-color 3s ease; /* future-proof */
   -webkit-transition: background-color 3s ease;
   -o-transition: background-color 3s ease;
@@ -38,3 +49,8 @@ h1 {
   -ms-transition: background-color 3s ease;/* IE10+ only */
   padding: 5em inherit;
   min-height: 100vh; }
+
+  @-webkit-keyframes hue {
+    from {-webkit-filter: hue-rotate(0deg); }
+    to {-webkit-filter: hue-rotate(360deg);}
+  }

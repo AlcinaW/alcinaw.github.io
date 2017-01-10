@@ -14,7 +14,15 @@ body {
   min-height: 25em; }
 
 h1 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+  display: inline-block;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0%;
+  margin: auto; }
   h1 .smile {
     font-size: 1.6em;
     color: #f35626;
@@ -22,6 +30,16 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear; }
+
+h2 {
+  vertical-align: middle;
+  width: 100%;
+  display: inline-block;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0%;
+  margin: auto; }
 
 footer p {
   text-align: center; }

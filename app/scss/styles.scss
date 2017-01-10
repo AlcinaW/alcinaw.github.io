@@ -1,5 +1,7 @@
 // styles.scss
 
+// font-family: 'Lato', sans-serif;
+// font-family: 'Playfair Display', serif; 
 html {
   font-family: sans-serif; }
 body {
@@ -13,6 +15,14 @@ body {
         min-height: 25em; }
   h1 {
     text-transform: uppercase;
+    vertical-align: middle;
+    width:100%;
+    display: inline-block;
+    height:50%;
+    position: absolute;
+    top: 0;
+    bottom:0%;
+    margin: auto;
     .smile {font-size: 1.6em;
       color: #f35626;
       background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
@@ -20,6 +30,17 @@ body {
       -webkit-text-fill-color: transparent;
       -webkit-animation: hue 60s infinite linear;}
   }
+  h2 {
+    vertical-align: middle;
+    width:100%;
+    display: inline-block;
+    height:50%;
+    position: absolute;
+    top: 0;
+    bottom:0%;
+    margin: auto;
+  }
+
 
   footer {
     p {

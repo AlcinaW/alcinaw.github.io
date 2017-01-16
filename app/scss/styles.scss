@@ -3,9 +3,24 @@
 // font-family: 'Lato', sans-serif;
 // font-family: 'Playfair Display', serif;
 // font-family: 'Nunito', sans-serif;
-//decide variables and mixins for key colours? 
+//decide variables and mixins for key colours?
+
+$font-stack: "Nunito", Helvetica, Arial, sans-serif;
+$primary-color: #1a1a1a;
+
+html,
+body,
+ul,
+ol {
+   margin: 0;
+  padding: 0;
+}
+
 html {
-  font-family: sans-serif; }
+  font-family: 100% $font-stack;
+  font-weight: 400;
+  color: $primary-color;
+}
 body {
   background: white;
   font-size: 15px; }

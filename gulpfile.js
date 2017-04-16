@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 //var handlebars = require('handlebars');
+var deploy      = require('gulp-gh-pages');
 
 var browserSync = require('browser-sync').create();
 
@@ -33,4 +34,9 @@ gulp.task('watch', ['browserSync', 'sass'], function (){
   // Reloads the browser whenever HTML or JS files change
   gulp.watch('app/*.html', browserSync.reload);
   gulp.watch('app/js/*.js', browserSync.reload);
+});
+
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
 });

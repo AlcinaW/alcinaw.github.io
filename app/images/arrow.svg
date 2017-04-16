@@ -1,0 +1,13 @@
+
+<svg width="18px" height="18px" viewBox="513 256 98 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <desc>Arrow</desc>
+    <defs>
+        <rect id="path-1" x="513" y="276" width="77" height="77" rx="16"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="77" height="77" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <use id="Rectangle" stroke="#979797" mask="url(#mask-2)" stroke-width="10" fill="none" xlink:href="#path-1"></use>
+    <path d="M574.752417,276.79333 C577.428363,271.963574 581.772097,271.972902 584.442875,276.79333 L600.097646,305.048283 L559.097646,305.048283 L574.752417,276.79333 Z" id="Triangle" stroke="#FFFFFF" stroke-width="3" fill="#979797" fill-rule="evenodd" transform="translate(579.597646, 286.548283) rotate(-316.000000) translate(-579.597646, -286.548283) "></path>
+    <path d="M529.5,336.5 L579.5,285.5" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square" fill="none"></path>
+</svg>

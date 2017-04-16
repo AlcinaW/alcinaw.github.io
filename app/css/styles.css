@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .box {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -11,6 +12,15 @@ ol {
   margin: 0;
   padding: 0; }
 
+ul {
+  list-style: none; }
+  ul li::before {
+    content: "•";
+    color: #e6f3ff;
+    display: inline-block;
+    width: 1em;
+    margin-left: 0em; }
+
 html {
   font-family: "Open Sans", Helvetica, Verdana, sans-serif;
   font-weight: 400;
@@ -20,14 +30,35 @@ body {
   background: white;
   font-size: 15px;
   line-height: 1.5; }
-
-.navbar {
-  margin-bottom: 0px;
-  padding-right: 1em; }
+  body h1 {
+    font-family: "Montserrat", Helvetica, Verdana, sans-serif;
+    font-weight: 700; }
+    body h1 .smile {
+      font-size: 1.6em;
+      color: #f35626;
+      background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: hue 60s infinite linear; }
+  body h2 {
+    font-size: 1.9em;
+    margin-top: 0;
+    line-height: 1;
+    text-transform: none; }
+  body p {
+    text-transform: none; }
+  body a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: dotted; }
+  body h3 {
+    font-size: 1.7em;
+    font-family: "Montserrat", Helvetica, Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase; }
 
 .project-descrip {
   border: 1px solid #acacac;
-  min-height: 25em; }
+  min-height: 30em; }
 
 .jumbo-paragraph {
   text-transform: uppercase;
@@ -39,32 +70,12 @@ body {
   top: 0;
   bottom: 0%;
   margin: auto; }
-  .jumbo-paragraph h1 {
-    font-family: "Montserrat", Helvetica, Verdana, sans-serif;
-    font-weight: 700; }
-    .jumbo-paragraph h1 .smile {
-      font-size: 1.6em;
-      color: #f35626;
-      background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-animation: hue 60s infinite linear; }
-  .jumbo-paragraph h2 {
-    font-size: 1.5em;
-    text-transform: none; }
-  .jumbo-paragraph p {
-    text-transform: none; }
 
 footer p {
   text-align: center; }
 
 .projects {
   background: #fff; }
-  .projects h3 {
-    font-size: 1.7em;
-    font-family: "Montserrat", Helvetica, Verdana, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase; }
   .projects a {
     color: #1a1a1a;
     text-decoration: none; }
@@ -78,11 +89,14 @@ footer p {
     padding-top: .5em;
     padding-bottom: .5em;
     border-radius: .2em;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-color: #fff;
+    transition: all 0.55s ease-in-out; }
     .projects .demo-link:hover {
       font-weight: 500;
-      border: 0.15em solid #acacac;
-      color: #acacac; }
+      border: 0.15em solid #1a1a1a;
+      color: #fff;
+      background-color: #1a1a1a; }
   .projects .project-wrap {
     border: 1em solid #f2f2f2;
     height: 32em; }
@@ -90,11 +104,19 @@ footer p {
       border: 1em solid #e6f3ff; }
   .projects .project-one {
     border: 1px solid red; }
-  .projects .project-descrip {
-    background: url(../images/lettering-1.png);
-    height: 30em; }
+  .projects .project-descrip-one {
+    background: url(../images/lettering-1.png); }
+  .projects .project-descrip-two {
+    background: url(../images/opencs-2.png); }
+  .projects .project-descrip-three {
+    background: url(../images/wiki-3.png); }
+  .projects .project-descrip-four {
+    background: url(../images/mixer-4.png); }
   .projects p {
     font-family: "Open Sans", Helvetica, Verdana, sans-serif; }
+
+.connect-links {
+  text-align: center; }
 
 .jumbotron {
   background: -moz-radial-gradient(white 15%, transparent 16%), -moz-radial-gradient(white 15%, transparent 16%), #e6f3ff;

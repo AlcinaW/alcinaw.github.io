@@ -30,13 +30,6 @@ ol {
   margin: 0;
   padding: 0;}
 
-ul {
-  list-style: none;
-    li::before {content: "•"; color: $blue;
-      display: inline-block; width: 1em;
-      margin-left: 0em}}
-
-
 html {
   font-family: $open-sans;
   font-weight: $regular;
@@ -92,11 +85,12 @@ body {
 
       @-webkit-keyframes hue {
         from {-webkit-filter: hue-rotate(0deg); }
-        to {-webkit-filter: hue-rotate(360deg);}}
-
-.project-descrip {
-    border: 1px solid $grey;
-    min-height: 34em; }
+        to {-webkit-filter: hue-rotate(360deg); }}
+ul {
+  list-style: none;
+    li::before {content: "•"; color: $blue;
+      display: inline-block; width: 1em;
+      margin-left: 0em;}}
 .jumbo-paragraph {
     text-transform: uppercase;
     vertical-align: middle;
@@ -106,8 +100,10 @@ body {
     position: absolute;
     top: 0;
     bottom:0%;
-    margin: auto;
-}
+    margin: auto; }
+.project-descrip {
+    border: 1px solid $grey;
+    min-height: 34em; }
 .projects {
   background: #fff;
   a {
@@ -115,8 +111,7 @@ body {
     text-decoration: none;
     &:hover {
       color: $primary-color;
-      text-decoration: none; }
-   }
+      text-decoration: none; }}
   .demo-link {
     border: .15em solid $primary-color;
     display: inline-block;
@@ -148,8 +143,7 @@ body {
   .project-descrip-four {
     background: url(../images/mixer-4.png);}
   p {
-    font-family: $open-sans; }
-}
+    font-family: $open-sans; }}
 .about {
     padding-bottom: 3em;}
 footer {

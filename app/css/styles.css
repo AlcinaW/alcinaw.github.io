@@ -12,13 +12,14 @@ ol {
   padding: 0; }
 
 html {
-  font-family: 100% "Nunito", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Verdana, sans-serif;
   font-weight: 400;
   color: #1a1a1a; }
 
 body {
   background: white;
-  font-size: 15px; }
+  font-size: 15px;
+  line-height: 1.5; }
 
 .navbar {
   margin-bottom: 0px;
@@ -28,7 +29,7 @@ body {
   border: 1px solid #acacac;
   min-height: 25em; }
 
-h1 {
+.jumbo-paragraph {
   text-transform: uppercase;
   vertical-align: middle;
   width: 100%;
@@ -38,51 +39,54 @@ h1 {
   top: 0;
   bottom: 0%;
   margin: auto; }
-  h1 .smile {
-    font-size: 1.6em;
-    color: #f35626;
-    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: hue 60s infinite linear; }
-
-h2 {
-  vertical-align: middle;
-  width: 100%;
-  display: inline-block;
-  height: 50%;
-  position: absolute;
-  top: 0;
-  bottom: 0%;
-  margin: auto; }
+  .jumbo-paragraph h1 {
+    font-family: "Montserrat", Helvetica, Verdana, sans-serif;
+    font-weight: 700; }
+    .jumbo-paragraph h1 .smile {
+      font-size: 1.6em;
+      color: #f35626;
+      background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: hue 60s infinite linear; }
+  .jumbo-paragraph h2 {
+    font-size: 1.5em;
+    text-transform: none; }
+  .jumbo-paragraph p {
+    text-transform: none; }
 
 footer p {
   text-align: center; }
 
 .projects {
   background: #fff; }
+  .projects .project-wrap {
+    border: 1em solid #f2f2f2;
+    height: 32em; }
+    .projects .project-wrap:hover {
+      border: 1em solid #e6f3ff; }
   .projects .project-one {
     border: 1px solid red; }
   .projects .project-descrip {
     background: url(../images/lettering-1.png);
     height: 30em; }
   .projects p {
-    font-family: Arial; }
-  .projects button {
-    text-transform: uppercase; }
+    font-family: "Open Sans", Helvetica, Verdana, sans-serif; }
+
+a {
+  color: #1a1a1a;
+  text-decoration: none; }
+  a:hover {
+    color: #1a1a1a;
+    text-decoration: none; }
 
 .jumbotron {
-  background-color: #efefef;
-  /*default*/
-  /* background: no-repeat center/100% url("../images/tachi-8.jpg"); */
-  transition: background-color 3s ease;
-  /* future-proof */
-  -webkit-transition: background-color 3s ease;
-  -o-transition: background-color 3s ease;
-  -moz-transition: background-color 3s ease;
-  -ms-transition: background-color 3s ease;
-  /* IE10+ only */
-  padding: 5em inherit;
+  background: -moz-radial-gradient(white 15%, transparent 16%), -moz-radial-gradient(white 15%, transparent 16%), #e6f3ff;
+  background: -webkit-radial-gradient(white 15%, transparent 16%), -webkit-radial-gradient(white 15%, transparent 16%), #e6f3ff;
+  background-position: 0 0, 5em 5em;
+  -webkit-background-size: 10em 10em;
+  -moz-background-size: 10em 10em;
+  background-size: 10em 10em;
   min-height: 100vh; }
 
 @-webkit-keyframes hue {

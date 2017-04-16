@@ -1,0 +1,154 @@
+// styles.scss
+
+$montserrat: "Montserrat", Helvetica, Verdana, sans-serif;
+$open-sans: "Open Sans", Helvetica, Verdana, sans-serif;
+
+$italics: italics;
+$light: 300;
+$regular: 400;
+$semibold: 500;
+$bold: 700;
+
+$primary-color: #1a1a1a;
+$light-blue: #e6f3ff;
+$blue: #186caf;
+$light-grey: #f2f2f2;
+$grey: #acacac;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius; }
+
+.box { @include border-radius(10px); }
+
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;}
+
+html {
+  font-family: $open-sans;
+  font-weight: $regular;
+  color: $primary-color;
+}
+body {
+  background: white;
+  font-size: 15px;
+  line-height: 1.5;
+  h1 {
+    font-family: $montserrat;
+    font-weight: $bold;
+    .smile { font-size: 1.6em;
+      color: #f35626;
+      background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-animation: hue 60s infinite linear;}}
+  h2 {
+    font-size: 1.9em;
+    margin-top: 0;
+    line-height: 1;
+    text-transform: none; }
+  p {
+    text-transform: none; }
+  a {
+    margin-bottom: .05em;
+    &:hover {
+      border-bottom: .03em dotted $blue;
+      text-decoration: none;}}
+  h3 {
+    font-size: 1.7em;
+    font-family: $montserrat;
+    font-weight: $bold;
+    text-transform: uppercase; } }
+    .connect-links {
+      text-align: center; }
+    .jumbotron {
+        background:
+        -moz-radial-gradient(white 15%, transparent 16%),
+        -moz-radial-gradient(white 15%, transparent 16%),
+        $light-blue;
+        background:
+        -webkit-radial-gradient(white 15%, transparent 16%),
+        -webkit-radial-gradient(white 15%, transparent 16%),
+        $light-blue;
+        background-position: 0 0, 5em 5em;
+
+        -webkit-background-size: 10em 10em;
+        -moz-background-size: 10em 10em;
+        background-size: 10em 10em;
+        min-height: 100vh; }
+
+      @-webkit-keyframes hue {
+        from {-webkit-filter: hue-rotate(0deg); }
+        to {-webkit-filter: hue-rotate(360deg); }}
+ul {
+  list-style: none;
+    li::before {content: "•"; color: $blue;
+      display: inline-block; width: 1em;
+      margin-left: 0em;}}
+.jumbo-paragraph {
+    text-transform: uppercase;
+    vertical-align: middle;
+    width:100%;
+    display: inline-block;
+    height:50%;
+    position: absolute;
+    top: 0;
+    bottom:0%;
+    margin: auto; }
+.project-descrip {
+    border: 1px solid $grey;
+    min-height: 34em; }
+.projects {
+  background: #fff;
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    &:hover {
+      color: $primary-color;
+      text-decoration: none; }}
+  .demo-link {
+    border: .15em solid $primary-color;
+    display: inline-block;
+    text-align: center;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: .2em;
+    text-transform: uppercase;
+    background-color: #fff;
+    transition: all 0.55s ease-in-out;
+    &:hover {
+      font-weight: $semibold;
+      border: .15em solid $primary-color;
+      color: #fff;
+      background-color: $primary-color; }}
+  .project-wrap {
+      border: 1em solid $light-grey;
+      min-height: 36em;
+    &:hover {
+      border: 1em solid $light-blue; } }
+  .project-one {
+    border: 1px solid red;}
+  .project-descrip-one {
+    background: url(../images/lettering-1.png);}
+  .project-descrip-two {
+    background: url(../images/opencs-2.png);}
+  .project-descrip-three {
+    background: url(../images/wiki-3.png);}
+  .project-descrip-four {
+    background: url(../images/mixer-4.png);}
+  p {
+    font-family: $open-sans; }}
+.about {
+    padding-bottom: 3em;}
+footer {
+  background-color: $light-blue;
+  p {
+  margin-top: 1em;
+  text-align: center; }
+}

@@ -16,7 +16,7 @@ ul {
   list-style: none; }
   ul li::before {
     content: "•";
-    color: #e6f3ff;
+    color: #186caf;
     display: inline-block;
     width: 1em;
     margin-left: 0em; }
@@ -78,7 +78,7 @@ body {
 
 .project-descrip {
   border: 1px solid #acacac;
-  min-height: 30em; }
+  min-height: 34em; }
 
 .jumbo-paragraph {
   text-transform: uppercase;
@@ -116,7 +116,7 @@ body {
       background-color: #1a1a1a; }
   .projects .project-wrap {
     border: 1em solid #f2f2f2;
-    height: 32em; }
+    min-height: 36em; }
     .projects .project-wrap:hover {
       border: 1em solid #e6f3ff; }
   .projects .project-one {
@@ -132,18 +132,11 @@ body {
   .projects p {
     font-family: "Open Sans", Helvetica, Verdana, sans-serif; }
 
+.about {
+  padding-bottom: 3em; }
+
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-  footer svg {
-    height: 3em; }
-    footer svg:hover {
-      fill: red;
-      stroke: #000;
-      border-bottom: none;
-      text-decoration: none; }
-  footer #email-icon:hover {
-    stroke: red; }
+  background-color: #e6f3ff; }
   footer p {
+    margin-top: 1em;
     text-align: center; }

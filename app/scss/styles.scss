@@ -32,7 +32,7 @@ ol {
 
 ul {
   list-style: none;
-    li::before {content: "•"; color: $light-blue;
+    li::before {content: "•"; color: $blue;
       display: inline-block; width: 1em;
       margin-left: 0em}}
 
@@ -96,7 +96,7 @@ body {
 
 .project-descrip {
     border: 1px solid $grey;
-    min-height: 30em; }
+    min-height: 34em; }
 .jumbo-paragraph {
     text-transform: uppercase;
     vertical-align: middle;
@@ -134,7 +134,7 @@ body {
       background-color: $primary-color; }}
   .project-wrap {
       border: 1em solid $light-grey;
-      height: 32em;
+      min-height: 36em;
     &:hover {
       border: 1em solid $light-blue; } }
   .project-one {
@@ -150,22 +150,11 @@ body {
   p {
     font-family: $open-sans; }
 }
-
+.about {
+    padding-bottom: 3em;}
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  svg {
-    height: 3em;
-    &:hover {
-      fill: red;
-      stroke: #000;
-      border-bottom: none;
-      text-decoration: none;}}
-  #email-icon {
-    &:hover {
-      stroke: red;
-    }}
+  background-color: $light-blue;
   p {
+  margin-top: 1em;
   text-align: center; }
 }

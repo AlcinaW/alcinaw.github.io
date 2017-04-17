@@ -60,6 +60,8 @@ body {
   -moz-background-size: 10em 10em;
   background-size: 10em 10em;
   min-height: 100vh; }
+  .jumbotron h1 {
+    font-size: 5em; }
 
 @-webkit-keyframes hue {
   from {

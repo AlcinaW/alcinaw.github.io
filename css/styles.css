@@ -131,11 +131,24 @@ ul {
     background: url(../images/wiki-3.png); }
   .projects .project-descrip-four {
     background: url(../images/mixer-4.png); }
+  .projects .project-descrip-five {
+    background: url(../images/pomodoro-5.png); }
   .projects p {
     font-family: "Open Sans", Helvetica, Verdana, sans-serif; }
 
+.graphic-div {
+  background-color: #1a1a1a; }
+  .graphic-div h3 {
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 1em; }
+  .graphic-div .graphic-arrows {
+    color: #acacac; }
+
 .about {
   padding-bottom: 3em; }
+  .about h4 {
+    padding-top: .25em; }
 
 footer {
   background-color: #e6f3ff; }

@@ -144,9 +144,22 @@ ul {
     background: url(../images/wiki-3.png);}
   .project-descrip-four {
     background: url(../images/mixer-4.png);}
+  .project-descrip-five {
+    background: url(../images/pomodoro-5.png);}
   p {
     font-family: $open-sans; }}
+.graphic-div {
+  background-color: $primary-color;
+  h3 {
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+.graphic-arrows {
+  color: $grey; }}
 .about {
+    h4 {
+    padding-top: .25em;}
     padding-bottom: 3em;}
 footer {
   background-color: $light-blue;

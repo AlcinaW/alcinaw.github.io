@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+p {
+  font-size: 1em;
+}
+a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  border-bottom: 1px solid (0,0,0,0);
+}
+a:hover {
+  font-weight: bold;
+  color: #f2f2f2;
+  font-size: 1em;
+}
+/* NAVIGATION nav */
+.nav {
+  z-index: 300;
+  overflow: hidden;
+  background-color: #33cb98;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3.5em;
+}
+.nav-logo {
+  width: 6em;
+  margin-top: -1em;
+}
+.nav-logo-div {
+  float: left;
+  cursor: pointer;
+}
+.nav a {
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: #efd821;
+}
+/* Desktop menu items */
+.desktop-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.desktop-nav a:last-child {
+  padding-right: 2em;
+}
+/* Mobile and tablet menu items */
+.mobile-nav-inner a {
+  padding: 3em;
+}
+.mobile-nav-inner a:hover {
+  background-color: #075a3e;
+}
+.nav-overlay img {
+  display: none;
+}
+.nav-overlay {
+  margin-top: -2em;
+  width: 6em;
+  height: 4.3em;
+}
+/* Slide in mobile nav default for desktop */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition-duration: 0.3s;
+}
+#mobile-nav-inner {
+  width: 50vw;
+  height: 100vh;
+  background-color: #33cb98;
+  position: fixed;
+  top: 3.5em;
+  left: -200em;
+  transition-duration: 0.3s;
+  display: flex;
+  flex-direction: column;
+  outline: 9999px solid rgba(0,0,0,0.0);
+}
+/* COMPANY HEADER */
+.company-header {
+  box-sizing: border-box;
+  padding: 1em;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background: url(../images/bg.jpg) #000 no-repeat;
+  background-size: cover;
+  text-shadow: .2em .2em .3em #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.company-header p {
+  font-size: 1.5em;
+}
+.company-header .company-results p {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: red;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* IMAGE GRID */
+.image-grid {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+/* Max width of the grid at 3 columns */
+.grid-container {
+  max-width: 1440px;
+  margin: auto;
+}
+.grid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.grid-content {
+  background: url(../images/90Chn1wgm_M.jpg) no-repeat;
+  transition: all 0.3s ease-in-out;
+  background-size: 110%;
+  background-position: bottom;
+  background-color: gray;
+  position: relative;
+  min-height: 10em;
+  display: inline-block;
+}
+.grid-content:hover {
+  background-size: 100%;
+}
+.grid-gradient {
+  border: 1px solid #fff;
+  height: auto;
+}
+.grid-content-inside {
+	width: 100;
+	height: auto;
+  position: relative;
+  margin-top: 8em;
+  padding-left: .2em;
+  padding-right: .2em;
+}
+.grid-description {
+  z-index: 15;
+  position: absolute;
+  width: auto;
+  bottom: 50%;
+}
+.grid-container a:hover {
+  color: #e8e8e8;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+/* FOOTER */
+footer {
+  height: 5em;
+  background-color: #5500fe; /* 4a00df */
+  text-align: center;
+  color: #fff;
+}
+footer p {
+  padding: 2em;
+}
+/* RESPONSIVE GRID AND MEDIA QUERIES */
+/* Sections */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+/* Column setup*/
+.col {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child {
+  margin-left: 0;
+}
+/*  Grouping  */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear:both;
+}
+.group {
+  zoom: 1;
+}
+/*  12-column grid */
+.span_12_of_12 {
+  width: 100%;
+}
+.span_11_of_12 {
+  	width: 91.53%;
+}
+.span_10_of_12 {
+  	width: 83.06%;
+}
+.span_9_of_12 {
+  	width: 74.6%;
+}
+.span_8_of_12 {
+  	width: 66.13%;
+}
+.span_7_of_12 {
+  	width: 57.66%;
+}
+.span_6_of_12 {
+  	width: 49.2%;
+}
+.span_5_of_12 {
+  	width: 40.73%;
+}
+.span_4_of_12 {
+  	width: 32.26%;
+}
+.span_3_of_12 {
+  	width: 23.8%;
+}
+.span_2_of_12 {
+  	width: 15.33%;
+}
+.span_1_of_12 {
+  	width: 6.866%;
+}
+
+@media (min-width: 1025px) {
+  .mobile-nav:hover, .mobile-nav:hover #mobile-nav-inner {
+    left:  -200em;
+  }
+  .grid-gradient {
+    background-image: linear-gradient(to bottom, rgba(136, 136, 136, 0) 0, #585858 100%);
+  }
+}
+@media (max-width: 1024px) {
+	.col {
+    margin: 1% 0 1% 0%;
+  }
+	.span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12 {
+    width: 49.2%;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav:hover #mobile-nav-inner {
+    left: 0;
+    /* overlay */
+    outline: 9999px solid rgba(0,0,0,0.5);
+  }
+  /* ALT IMAGE GRID STYLES for two columns */
+  .grid-content {
+    margin: .05em;
+    margin-bottom: 3em;
+  }
+  .grid-content-inside {
+    background-color: grey;
+  	width: 95%;
+  	height: 8em;
+    position: absolute;
+    margin-top: 6em;
+    padding-left: .2em;
+    padding-right: .2em;
+    float: left;
+    clear: both;
+  }
+  .grid-content-inside p {
+    color: #313131;
+    padding-top: 2em;
+  }
+  .grid-description {
+    z-index: 15;
+    position: absolute;
+    width: auto;
+    top: -9%;
+  }
+  .grid-container a {
+    color: #313131;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0,0,0,0);
+  }
+  .grid-container a:hover {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+  }
+}
+@media only screen and (max-width: 767px) {
+	.col {
+    margin: 1% 0 1% 0%;
+  }
+	.span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+    width: 100%;
+  }
+  #mobile-nav-inner {
+    width: 100vw;
+    height: 100vh;
+  }
+  .mobile-nav:hover, .mobile-nav:hover #mobile-nav-inner {
+    left: 0;
+  }
+  .mobile-nav:hover #mobile-nav-inner {
+    /* overlay */
+    outline: none;
+  }
+}

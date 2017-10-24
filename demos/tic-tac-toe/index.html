@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+  <section class="play-area">
+    <!-- CSS Grid Container-->
+    <!-- <div class="container"> -->
+
+    <h1>Tic Tac Toe</h1>
+    <!-- table to play -->
+    <table>
+      <tr>
+        <td class="cell" id="0"></td>
+        <td class="cell" id="1"></td>
+        <td class="cell" id="2"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="3"></td>
+        <td class="cell" id="4"></td>
+        <td class="cell" id="5"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="6"></td>
+        <td class="cell" id="7"></td>
+        <td class="cell" id="8"></td>
+      </tr>
+    </table>
+
+    <!-- CSS Grid Container end -->
+    <!-- </div> -->
+  </section>
+
+  <section class="modal-area">
+    <!-- TODO change to other image -->
+    <!-- modal to select symbol, show winner, and replay -->
+
+    <div id="info-modal" class="modal">
+
+      <div class="modal-content select-symbol">
+        <!-- enable selection of symbol -->
+        <h2>Let's play!</h2>
+
+        <!-- CSS Grid Container-->
+        <div class="wrapper container">
+        <!-- TODO GET RID OF SPANS-->
+        <!-- select symbol to play; X goes first -->
+        <button id="x-button" onClick="selectSym('X')"><span class="close">X</span></button>
+        <button id="o-button" onClick="selectSym('O')"><span class="close">O</span></button>
+        <!-- CSS Grid Container end -->
+        </div>
+
+      </div>
+
+      <!-- modal to show who is the winner -->
+      <div class="modal-content endgame">
+      <!-- winner shows here -->
+        <h2><div class="text"></div></h3>
+        <!-- only show replay button after the winner is declared -->
+        <button id="replay-button" type="button" name="button">Replay</button>
+      </div>
+    </div>
+  </section>
+
+    <!-- JS -->
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

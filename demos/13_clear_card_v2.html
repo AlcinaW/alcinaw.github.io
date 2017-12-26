@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+    body {
+      background-color: black;
+      overflow: hidden;
+    }
+    .cardDiv {
+      border: 1px solid white;
+      margin-top: 0;
+      margin-left: -3em;
+      opacity: .03;
+      animation: infinite-flip 50s infinite linear;
+      transform-style: preserve-3d;
+    }
+    .cardDiv:nth-child(2n) {
+      opacity: .3;
+    }
+    .cardDiv:nth-child(3n) {
+      opacity: .05;
+    }
+    .cardDiv:nth-child(7n) {
+      opacity: .04;
+    }
+    .glow-rotate {
+      z-index: 200;
+      animation: infinite-flip 5s infinite linear;
+      /* width: 20vw;
+      height: 50vh; */
+      z-index: 200;
+      position: relative;
+      height: 500px;
+      width: 242px;
+      padding-top: 50px;
+      /* padding-left: 50px; */
+      margin: 0 auto;
+    }
+    .glow-rotate svg {
+      border-radius: 10px;
+      box-shadow:
+          inset 0 0 10px #fff,
+          0 0 10px #fff,
+          -5px 0 5px #fff,
+          5px 0 15px #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .glow-rotate svg rect {
+      fill: white;
+    }
+    @keyframes infinite-flip {
+        from { transform: rotateY(0deg); }
+        to { transform: rotateY(360deg); }
+    }
+    @keyframes one-flip {
+        from { transform: rotateY(0deg); }
+        to { transform: rotateY(360deg); }
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="glow-rotate">
+      <svg class="glow-rotate-inside" id="base" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.14 288.34">
+        <title>clear-card-base3</title>
+        <rect x="0.25" width="128.64" height="287.84" rx="5" ry="5" fill="none" stroke="white" fill="white"
+     fill-opacity="1" stroke-opacity=".75" />
+      </svg>
+    </div>
+
+
+  </body>
+
+  <script type="text/javascript">
+  let cardDiv, coordinatesTop, coordinatesLeft;
+
+  let min = .5;
+  let max = 25;
+  let cardNum = 35;
+
+  for (let i = 0; i < cardNum; i++) {
+    let height = Math.floor(Math.random() * (max - min +1)) + min;
+    let width = height /2;
+    let coordinatesTop = Math.floor(Math.random() * (max - min+1)) + min;
+    let coordinatesLeft = Math.floor(Math.random() * (max - min + 75)) + min;
+
+    cardDiv = '<div class="cardDiv" id="" style="position: absolute; height: ' + height + 'em; width: ' + width + 'em; top: ' + coordinatesTop + 'em; left: ' + coordinatesLeft + 'em;"></div>';
+
+    document.write(cardDiv);
+  }
+  </script>
+</html>

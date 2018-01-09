@@ -96,13 +96,14 @@ hr {
   text-decoration: underline #86c5f2;
   border: 2px solid rgba(0, 0, 0, 0);
 }
-.copy a:hover, .copy a:focus {
+.copy p a:hover, .copy p a:focus, .copy a:hover, .copy a:focus {
   border-bottom: underline #fff;
+  text-decoration: underline #fff;
 }
 .copy li a {
   border: 2px solid rgba(0, 0, 0, 0);
 }
-.copy li:hover, .copy li:focus {
+.copy li:hover, .copy li:focus{
   background: #fff;
   transition: all 0.5s ease;
 }
@@ -111,6 +112,10 @@ hr {
   text-decoration-skip: ink;
   text-decoration: underline #fff;
   font-weight: bold;
+}
+.copy li a:focus {
+  background: #fff;
+  transition: all 0.5s ease;
 }
 
 /*** MEDIA QUERIES ***/

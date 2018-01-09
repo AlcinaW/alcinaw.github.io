@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  font-size: 16.5px;
+  max-height: 120vh;
+}
+/*** FLEXBOX AND CENTERING ***/
+.flex-container {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: 50vw;
+}
+.flex-container > * {
+}
+/*** BACKGROUND and SVGs ***/
+.overlay {
+  background-color: #161e29;
+  opacity: .98;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  min-height: 100vh;
+}
+.sparkleWrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+.sparkleDiv {
+  margin-top: -35em;
+  margin-left: -35em;
+  opacity: 1;
+  z-index: -2;
+  transform: rotate(45deg);
+  position: fixed;
+}
+/* rotate the stars */
+.sparkleDiv:nth-child(2n) {
+  transform: rotate(-27deg);
+}
+.sparkleDiv:nth-child(3n) {
+  transform: rotate(12deg);
+}
+.sparkleDiv:nth-child(5n) {
+  transform: rotate(-5deg);
+}
+/*** COPY ***/
+.copy {
+  z-index: 15;
+  color: #fff;
+  text-align: center;
+  line-height: 1.5;
+}
+.copy h1 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2em;
+}
+.copy p, .copy li {
+  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+hr {
+  border-bottom: none;
+  border-top: 3px double #fff;
+}
+.copy ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+.copy li {
+  border: 1px solid #fff;
+  border-radius: 2px;
+  min-width: 5em;
+  margin-right: .5em;
+  align-items: center;
+  margin-bottom: .25em;
+}
+.copy a {
+  color: #fff;
+  text-decoration-skip: ink;
+  text-decoration: underline #86c5f2;
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+.copy a:hover, .copy a:focus {
+  border-bottom: underline #fff;
+}
+.copy li a {
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+.copy li:hover, .copy li:focus {
+  background: #fff;
+  transition: all 0.5s ease;
+}
+.copy li:hover, .copy li a:hover, .copy li a:focus {
+  color: #000;
+  text-decoration-skip: ink;
+  text-decoration: underline #fff;
+  font-weight: bold;
+}
+
+/*** MEDIA QUERIES ***/
+@media screen and (max-width: 750px) {
+  .copy {
+    min-width: 90vw;
+    position: absolute;
+    top: 0;
+  }
+  .row {
+      width: 90vw;
+  }
+  .overlay {
+    height: 100%;
+    width: 100%;
+    min-height: 140vh;
+  }
+}
+@media screen and (max-width: 1380px) and (min-width: 320px) {
+  body {
+    height: 100%;
+    max-height: 100%;
+    margin: 0;
+  }
+  .overlay, .copy {
+    max-height: 100%;
+  }
+  .sparkleDiv {
+    margin-top: -40em;
+    margin-left: -100em;
+    position: fixed;
+  }
+}

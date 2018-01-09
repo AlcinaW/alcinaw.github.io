@@ -23,7 +23,7 @@ body {
 /*** BACKGROUND and SVGs ***/
 .overlay {
   background-color: #161e29;
-  opacity: .98;
+  opacity: .85;
   z-index: 1;
   height: 100vh;
   width: 100vw;

@@ -16,7 +16,7 @@ body {
     justify-content: center;
 }
 .row {
-    width: 47vw;
+    max-width: 44em;
 }
 .flex-container > * {
 }

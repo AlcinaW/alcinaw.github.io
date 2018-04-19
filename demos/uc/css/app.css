@@ -59,7 +59,7 @@ body {
 .copy {
   z-index: 15;
   color: #fff;
-  text-align: right;
+  text-align: center;
   line-height: 1.5;
 }
 .copy h1 {

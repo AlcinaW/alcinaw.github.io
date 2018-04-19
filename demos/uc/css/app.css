@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-color: #000;
   overflow-x: hidden;
-  font-size: 16.5px;
+  font-size: 21px;
   max-height: 120vh;
 }
 /*** FLEXBOX AND CENTERING ***/

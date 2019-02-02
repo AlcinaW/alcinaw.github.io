@@ -62,11 +62,16 @@ body {
   text-align: center;
   line-height: 1.5;
 }
-.copy h1 {
+.copy h1, .copy h2 {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   text-transform: uppercase;
+}
+.copy h1 {
   letter-spacing: 2px;
   font-size: 2em;
+}
+.copy h2 {
+  font-size: 1em;
 }
 .copy p, .copy li {
   font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
@@ -83,7 +88,6 @@ hr {
   list-style: none;
 }
 .copy li {
-  border: 1px solid #fff;
   border-radius: 2px;
   min-width: 5em;
   margin-right: .5em;
@@ -97,25 +101,9 @@ hr {
   border: 2px solid rgba(0, 0, 0, 0);
 }
 .copy p a:hover, .copy p a:focus, .copy a:hover, .copy a:focus {
-  border-bottom: underline #fff;
-  text-decoration: underline #fff;
-}
-.copy li a {
-  border: 2px solid rgba(0, 0, 0, 0);
-}
-.copy li:hover, .copy li:focus{
-  background: #fff;
-  transition: all 0.5s ease;
-}
-.copy li:hover, .copy li a:hover, .copy li a:focus {
-  color: #000;
+  color: #86c5f2;
   text-decoration-skip: ink;
   text-decoration: underline #fff;
-  font-weight: bold;
-}
-.copy li a:focus {
-  background: #fff;
-  transition: all 0.5s ease;
 }
 
 /*** MEDIA QUERIES ***/

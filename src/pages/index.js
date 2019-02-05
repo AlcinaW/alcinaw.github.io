@@ -28,6 +28,7 @@ const IndexPage = () => (
             <h2 className="subtitle is-small has-text-light">Web Development &amp; Wordpress</h2>
             <h3 className="title is-medium has-text-white">Upchain PLM Marketing</h3>
             <p><a href="https://www.upchain.com" target="_blank" rel="noopener noreferrer">View Upchain site</a></p>
+            {/* <p>From May 2018-January 2019, I was part of the Demand Generation/Marketing team at Upchain. During that time, I managed the redesign of the site with the new brand guidelines, wrote and updated plugins to connect the site to Pardot/Salesforce. I wrote new templates and custom post types to extend the functionality of the Wordpress site.</p> */}
           </div>
         </div>
     </section>

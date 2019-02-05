@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'Alcina Wong - Hi!',
-    icon: 'src/images/aw-favicon-icon-blue.png'
+    icon: 'src/images/aw-favicon-icon-blue.png',
+    siteUrl: `https://www.alcinawong.com`,
+    description: `Alcina Wong's Portfolio`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/alcina/Documents/Development/alcinaw.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "3ca2744efb80048e2db7a322026e2039",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -523,7 +532,7 @@
       "resolve": "/Users/alcina/Documents/Development/alcinaw.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "aa62f9efff47efec411bfef581c8e9ae",
+      "version": "8a257f85c56a196bd687583045c0b4c8",
       "pluginOptions": {
         "plugins": []
       },
@@ -600,7 +609,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5db3c1a705eb86670027a0fd1279fdda",
+        "contentDigest": "4ac10976d3f46edeef2e72defe1ee4c8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -703,37 +712,21 @@
     "Site": {
       "siteMetadata": {
         "title": "Alcina Wong - Hi!",
-        "icon": "src/images/aw-favicon-icon-blue.png"
+        "icon": "src/images/aw-favicon-icon-blue.png",
+        "siteUrl": "https://www.alcinawong.com",
+        "description": "Alcina Wong's Portfolio"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-05T04:17:19.989Z",
+      "buildTime": "2019-02-05T05:07:35.178Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1f3ee48287b73b8fe8a92aa110a3dda0",
+        "contentDigest": "39e2a9d969d9724c39b2e3e7f911d4cc",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
-      "pluginCreatorId": "Plugin gatsby-plugin-offline",
-      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "86d391e6cebfdd45db5b31eb41b2d62e",
-        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -840,7 +833,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ed77072aa2fe295898e0ed4aeead7dc7"
+    "PLUGINS_HASH": "6ae46becc658abc4d0fe90719a187c18"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -857,12 +850,13 @@
     "sq--src-components-layout-js": 755544856,
     "design-803": "935/path---design-803-95c-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-offline/app-shell.js": {
+    "/Users/alcina/Documents/Development/alcinaw.github.io/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-offline/app-shell.js"
+      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/.cache/dev-404-page.js"
     },
     "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/404.js": {
       "query": "",

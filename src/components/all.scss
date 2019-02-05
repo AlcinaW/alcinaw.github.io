@@ -1,0 +1,126 @@
+@charset "utf-8";
+@import '~bulma';
+
+//- Full Page Height
+#___gatsby {
+  > div {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .site-content {
+    flex: 1;
+    // &:first-of-type {
+    //   margin-top: -3.25em;
+    // }
+  }
+  .navbar {
+    background-color: #161e29;
+    // &.is-transparent {
+    // background-color: transparent;
+    // background-image: none;
+    // }
+    .nav-icon {
+      width: 3em;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  // body {
+  //   &.has-navbar-fixed-top {
+  //     margin-top: -3.25em;
+  //   }
+  // }
+  hr {
+    background-color: #363d54;
+    max-width: 3em;
+    margin: 1em auto;
+  }
+  .section-one{
+      background-color: #161e29;
+      // background-image: url(../images/stars.jpg);
+      // background-repeat: no-repeat;
+      // background-size: cover;
+  }
+  .example-page {
+    background-color: #161e29;
+}
+  .section-upchain {
+    background: #005959;
+    background-image: url(../images/upchain.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-televox {
+    background: cornflowerblue;
+    background-image: url(../images/schoolmessenger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-canadacomputers {
+    background: midnightblue;
+    background-image: url(../images/canadacomputers.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-cemc {
+    background: darkcyan;
+    background-image: url(../images/cemc.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-design {
+    background: lightcoral;
+    background-image: url(../images/design.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .icon-star {
+    width: 3em;
+  }
+  h1 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+  }
+  h2 {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+  }
+  h3, h4, p, a, li {
+    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  }
+  p, li {
+    font-size: 1.2rem;
+    a {
+      color: ghostwhite;
+      text-decoration-skip: ink;
+      text-decoration: underline #86c5f2;
+      border: 2px solid rgba(0, 0, 0, 0);
+      cursor: pointer;
+      &:focus {
+        color: black;
+        text-decoration-skip: ink;
+        text-decoration: underline #efefef;
+        cursor: pointer;
+        background: #efefef;
+      }
+      &:hover {
+        color: black;
+        text-decoration-skip: ink;
+        text-decoration: underline #efefef;
+        cursor: pointer;
+        background: #efefef;
+      }
+    }
+  }
+
+  img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}

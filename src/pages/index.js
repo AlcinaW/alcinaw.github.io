@@ -58,8 +58,8 @@ const IndexPage = () => (
         <div className="hero-body">
           <div className="container has-text-centered">
             <h2 className="subtitle is-small has-text-light">Digital Media / Production Design</h2>
-            <h3 className="title is-medium has-text-white">OpenCS: Python from scratch</h3>
-            <p><a href="https://open.cs.uwaterloo.ca/python-from-scratch" target="_blank" rel="noopener noreferrer">View OpenCS</a></p>
+            <h3 className="title is-medium has-text-white">Centre for Extended Learning</h3>
+            <p><Link to="/cemc">View Centre for Extended Learning</Link></p>
           </div>
         </div>
     </section>

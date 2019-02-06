@@ -26,7 +26,7 @@ const UCPage = () => (
           <img src={macbook} alt="Upchain website" />
         </div>
         <div className="column is-three-fifths is-offset-one-fifth">
-          <p>As part of the Demand Generation team at Upchain, I worked closely with the graphic designer to bring the brand vision to life on the Upchain marketing site. The key tools we used were Zeplin, Pardot/Salesforce, Wordpress, JavaScript, Google ReCaptcha, PHP, and HotJar. I updated the initial theme to have a more flexible design using a child theme, separated the functionality with a site-specific plugin, and ensured that the analytics tracking that the Marketing team needed were working properly.</p>
+          <p>As part of the Demand Generation team at Upchain, I worked closely with the graphic designer to bring the brand vision to life on the Upchain marketing site. The key tools we used were Zeplin, Pardot/Salesforce, Wordpress, JavaScript, Google ReCaptcha, PHP, and HotJar. I updated the initial theme to have a more flexible design using a child theme, separated the functionality with a site-specific plugin, and ensured that the analytics tracking needed by the Marketing team were working properly.</p>
           <p>In January 2019, I helped set up the Google Tag Manager with Google Optimize to act on the HotJar data we had been collecting to do A/B testing and create more informative and effective landing pages.</p>
           <p>Other projects I worked at the Upchain include assisting with the design of the elearning and Zendesk customer success portals, custom Wordpress post type creation, HTTPS implementation, hosting migration, website performance analysis, and building Unbounce pages.</p>
         </div>

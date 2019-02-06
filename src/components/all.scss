@@ -43,9 +43,12 @@
       // background-repeat: no-repeat;
       // background-size: cover;
   }
-  .example-page {
-    background-color: #161e29;
-}
+  // .portfolio-page {
+  //   p {
+
+  //   }
+  // }
+
   .section-upchain {
     background: #005959;
     background-image: url(../images/upchain.jpg);
@@ -81,21 +84,50 @@
   .icon-star {
     width: 3em;
   }
-  h1 {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  h1, h2 {
+    font-family: "Rubik", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     text-transform: uppercase;
     letter-spacing: .05rem;
+    font-weight: 400;
   }
   h2 {
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: .05rem;
+    font-weight: 300;
   }
   h3, h4, p, a, li {
-    font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: "PT Serif", "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   }
   p, li {
     font-size: 1.2rem;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+  img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  a {
+    // color: navy;
+    text-decoration-skip: ink;
+    text-decoration: underline #86c5f2;
+    border: 2px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    &:focus {
+      color: white;
+      text-decoration-skip: ink;
+      text-decoration: underline #efefef;
+      cursor: pointer;
+      background: #161e29;
+    }
+    &:hover {
+      color: white;
+      text-decoration-skip: ink;
+      text-decoration: underline #efefef;
+      cursor: pointer;
+      background: #161e29;
+    }
+  }
+  .hero{
     a {
       color: ghostwhite;
       text-decoration-skip: ink;
@@ -117,10 +149,5 @@
         background: #efefef;
       }
     }
-  }
-
-  img {
-    margin-top: 1em;
-    margin-bottom: 1em;
   }
 }

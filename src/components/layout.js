@@ -29,6 +29,7 @@ const Layout = ({ children }) => (
           // bodyAttributes={{ class: 'has-navbar-fixed-top' }}
         >
           <html lang="en" />
+          
         </Helmet>
 
         <Header siteTitle={data.site.siteMetadata.title} />

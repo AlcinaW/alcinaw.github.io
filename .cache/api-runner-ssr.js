@@ -4,6 +4,9 @@ var plugins = [{
     },{
       plugin: require('/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/aw-favicon-icon-blue.png"},
+    },{
+      plugin: require('/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-prefetch-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":[{"family":"Rubik","subsets":["latin"]},{"family":"PT Serif","variants":["300","400"]}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

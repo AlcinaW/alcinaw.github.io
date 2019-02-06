@@ -519,11 +519,335 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-prefetch-google-fonts": {
+      "resolve": "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-prefetch-google-fonts",
+      "id": "Plugin gatsby-plugin-prefetch-google-fonts",
+      "name": "gatsby-plugin-prefetch-google-fonts",
+      "version": "1.4.0",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          {
+            "family": "Rubik",
+            "subsets": [
+              "latin"
+            ]
+          },
+          {
+            "family": "PT Serif",
+            "variants": [
+              "300",
+              "400"
+            ]
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-prefetch-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-prefetch-google-fonts",
+        "description": "A Gatsby plugin to download and prefetch [Google Fonts](https://fonts.google.com/). Can increase performance as opposed to loading webfonts from Google's external stylesheet.",
+        "version": "1.4.0",
+        "main": "gatsby-ssr.js",
+        "keywords": [
+          "gatsby-plugin",
+          "gatsby",
+          "plugin",
+          "web",
+          "font",
+          "loader",
+          "google",
+          "webfont",
+          "webfontloader",
+          "prefetch",
+          "download",
+          "downloader",
+          "local"
+        ],
+        "author": {
+          "name": "Kennedy Rose",
+          "email": "krose@escaladesports.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "clean-css",
+            "version": "^4.2.1"
+          },
+          {
+            "name": "download",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "get-urls",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "globby",
+            "version": "^8.0.1"
+          },
+          {
+            "name": "google-fonts-plugin",
+            "version": "2.0.2"
+          },
+          {
+            "name": "object-hash",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.1.2"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.1.2"
+          },
+          {
+            "name": "@babel/plugin-proposal-class-properties",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-decorators",
+            "version": "^7.1.2"
+          },
+          {
+            "name": "@babel/plugin-proposal-do-expressions",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-export-default-from",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-export-namespace-from",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-function-bind",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-function-sent",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-json-strings",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-logical-assignment-operators",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-nullish-coalescing-operator",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-numeric-separator",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-optional-chaining",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-pipeline-operator",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-throw-expressions",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-dynamic-import",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-import-meta",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-syntax-jsx",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "@babel/plugin-transform-runtime",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "@babel/preset-react",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "child-process-async",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "child-process-promise",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "emotion",
+            "version": "^9.2.6"
+          },
+          {
+            "name": "emotion-server",
+            "version": "^9.2.6"
+          },
+          {
+            "name": "enzyme",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "enzyme-adapter-react-16",
+            "version": "^1.3.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "eslint-config-escalade-sports",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.19"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "2.0.5"
+          },
+          {
+            "name": "husky",
+            "version": "^0.14.3"
+          },
+          {
+            "name": "identity-obj-proxy",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "isomorphic-fetch",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "jest",
+            "version": "^23.4.2"
+          },
+          {
+            "name": "jest-dom",
+            "version": "^1.12.0"
+          },
+          {
+            "name": "lint-staged",
+            "version": "^7.2.0"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^1.9.3"
+          },
+          {
+            "name": "netlify-lambda",
+            "version": "^0.4.0"
+          },
+          {
+            "name": "npm-run-all",
+            "version": "^4.1.3"
+          },
+          {
+            "name": "opn-cli",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-netlify-form",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "react-no-ssr",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "react-test-renderer",
+            "version": "^16.4.2"
+          },
+          {
+            "name": "react-testing-library",
+            "version": "^4.1.7"
+          },
+          {
+            "name": "request",
+            "version": "^2.87.0"
+          },
+          {
+            "name": "statable",
+            "version": "^0.3.2"
+          },
+          {
+            "name": "static-server",
+            "version": "^2.2.1"
+          },
+          {
+            "name": "strip-html-comments",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "toml",
+            "version": "^2.3.3"
+          },
+          {
+            "name": "wt-cli",
+            "version": "^10.0.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1bcea8fc110562d58a8f73bc554aeaf6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/alcina/Documents/Development/alcinaw.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "8a257f85c56a196bd687583045c0b4c8",
+      "version": "c42dc5c12b37b8483ea10551b0f1fc9d",
       "pluginOptions": {
         "plugins": []
       },
@@ -559,12 +883,20 @@
             "version": "^2.0.5"
           },
           {
+            "name": "gatsby-plugin-prefetch-google-fonts",
+            "version": "^1.4.0"
+          },
+          {
             "name": "gatsby-plugin-react-helmet",
             "version": "^3.0.0"
           },
           {
             "name": "gatsby-plugin-sass",
             "version": "^2.0.1"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.7"
           },
           {
             "name": "node-sass",
@@ -581,6 +913,22 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-funston",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-lincoln",
+            "version": "^0.16.18"
           }
         ],
         "devDependencies": [
@@ -600,7 +948,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4ac10976d3f46edeef2e72defe1ee4c8",
+        "contentDigest": "a499fd3adcb66bbaa8dbb07e93f80fed",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -709,12 +1057,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-05T05:16:43.062Z",
+      "buildTime": "2019-02-06T06:13:31.735Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "057d8c8e52e0fb183847fa0c0b26bd6f",
+        "contentDigest": "fa1b251c2ffb8bfeee27547bf02614e2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -779,26 +1127,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /design/": {
-      "jsonName": "design-803",
-      "internalComponentName": "ComponentDesign",
-      "path": "/design/",
-      "component": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/design.js",
-      "componentChunkName": "component---src-pages-design-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/design.js",
-      "id": "SitePage /design/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "8d08c682f2016a772623904485d5a5a2",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -815,6 +1143,46 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "5b4682f1fbb8143e7ed274a7e3e7e10d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /schoolmessenger/": {
+      "jsonName": "schoolmessenger-8ba",
+      "internalComponentName": "ComponentSchoolmessenger",
+      "path": "/schoolmessenger/",
+      "component": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/schoolmessenger.js",
+      "componentChunkName": "component---src-pages-schoolmessenger-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/schoolmessenger.js",
+      "id": "SitePage /schoolmessenger/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "99e39a3e8946374d8fde166933ef5759",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /upchain/": {
+      "jsonName": "upchain-3db",
+      "internalComponentName": "ComponentUpchain",
+      "path": "/upchain/",
+      "component": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/upchain.js",
+      "componentChunkName": "component---src-pages-upchain-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/upchain.js",
+      "id": "SitePage /upchain/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b63499481c59bab0bdd1dc2cb2df2e29",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -842,7 +1210,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6ae46becc658abc4d0fe90719a187c18"
+    "PLUGINS_HASH": "2dd6a145b51aa20ae8485efc6a59a855"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -860,7 +1228,11 @@
     "design-803": "935/path---design-803-95c-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "canadacomputers-copy-67a": "226/path---canadacomputers-copy-67-a-e77-NZuapzHg3X9TaN1iIixfv1W23E",
+    "upchain-3db": "929/path---upchain-3-db-988-NZuapzHg3X9TaN1iIixfv1W23E",
+    "upchain-copy-a56": "935/path---upchain-copy-a-56-a97-NZuapzHg3X9TaN1iIixfv1W23E",
+    "schoolmessenger-8ba": "422/path---schoolmessenger-8-ba-f38-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/404.js": {
@@ -871,13 +1243,17 @@
       "query": "",
       "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/canadacomputers.js"
     },
-    "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/design.js": {
-      "query": "",
-      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/design.js"
-    },
     "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/index.js"
+    },
+    "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/upchain.js": {
+      "query": "",
+      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/upchain.js"
+    },
+    "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/schoolmessenger.js": {
+      "query": "",
+      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/schoolmessenger.js"
     },
     "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-offline/app-shell.js": {
       "query": "",

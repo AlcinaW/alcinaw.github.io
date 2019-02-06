@@ -25,10 +25,9 @@ const IndexPage = () => (
     <section className="hero is-large section-upchain">
         <div className="hero-body">
           <div className="container has-text-centered">
-            <h2 className="subtitle is-small has-text-light">Web Development &amp; Wordpress</h2>
-            <h3 className="title is-medium has-text-white">Upchain PLM Marketing</h3>
-            <p><a href="https://www.upchain.com" target="_blank" rel="noopener noreferrer">View Upchain site</a></p>
-            {/* <p>From May 2018-January 2019, I was part of the Demand Generation/Marketing team at Upchain. During that time, I managed the redesign of the site with the new brand guidelines, wrote and updated plugins to connect the site to Pardot/Salesforce. I wrote new templates and custom post types to extend the functionality of the Wordpress site.</p> */}
+            <h2 className="subtitle is-small has-text-light">Web Development</h2>
+            <h3 className="title is-medium has-text-white">Upchain PLM</h3>
+            <p><Link to="/upchain">View Upchain</Link></p>
           </div>
         </div>
     </section>
@@ -36,16 +35,9 @@ const IndexPage = () => (
     <section className="hero is-large section-televox">
         <div className="hero-body">
           <div className="container has-text-centered">
-            <h2 className="subtitle is-small has-text-light">Responsive Web Design &amp; QA</h2>
-            <h3 className="title is-medium has-text-white">SchoolMessenger / TeleVox Theming</h3>
-            <p><a href="https://www.schoolmessenger.com/template-library/" target="_blank" rel="noopener noreferrer">View SchoolMessenger templates</a></p>
-            
-            <ul className="columns is-half is-centered">
-              <li className="column is-narrow"><a href="http://ksbeyedr.televox.west.com/
-" target="_blank" rel="noopener noreferrer">Example A</a></li>
-              <li className="column is-narrow"><a href="http://sanantonioortho.televox.west.com/" target="_blank" rel="noopener noreferrer">Example B</a></li>
-              <li className="column is-narrow"><a href="http://kwongorthodontics.televox.west.com/" target="_blank" rel="noopener noreferrer">Example C</a></li>
-          </ul>
+            <h2 className="subtitle is-small has-text-light">Responsive Web Design</h2>
+            <h3 className="title is-medium has-text-white">SchoolMessenger / TeleVox</h3>
+            <p><Link to="/schoolmessenger">View SchoolMessenger</Link></p>
           </div>
         </div>
     </section>
@@ -54,8 +46,8 @@ const IndexPage = () => (
         <div className="hero-body">
           <div className="container has-text-centered">
             <h2 className="subtitle is-small has-text-light">Web Design</h2>
-            <h3 className="title is-medium has-text-white">Canada Computers Microsites &amp; Landing Pages</h3>
-            <p><Link to="/canadacomputers">Canada Computers &amp; Electronics examples</Link></p>
+            <h3 className="title is-medium has-text-white">Canada Computers &amp; Electronics</h3>
+            <p><Link to="/canadacomputers">View Canada Computers &amp; Electronics</Link></p>
           </div>
         </div>
     </section>
@@ -81,17 +73,7 @@ const IndexPage = () => (
           </div>
         </div>
     </section>
-    {/* <section className="hero is-small section-lettering">
-      <a href="https://www.instagram.com/kaitou_al/" target="_blank">
-        <div className="hero-body">
-          <div className="container has-text-centered">
-            <h3 className="subtitle is-small">Illustration</h3>
-            <h4 className="title is-medium">Lettering &amp; Illustration</h4>
-            <p><a href="https://www.instagram.com/kaitou_al/" target="_blank">View lettering</a></p>
-          </div>
-        </div>
-      </a>
-    </section> */}
+
   </Layout>
 )
 

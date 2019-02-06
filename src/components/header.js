@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
     <div className="container">
       <div className="navbar-brand">
         
-        <Link to="/" className="navbar-item ">
+        <Link to="/" className="navbar-item">
           {/* {siteTitle} */}
           <img src={wong} alt="Alcina Wong" className="nav-icon"></img>
         </Link>

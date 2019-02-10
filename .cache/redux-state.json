@@ -1068,12 +1068,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-09T20:01:37.375Z",
+      "buildTime": "2019-02-10T07:06:47.204Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c2a838f28f9b19aba826cdaf313e991d",
+        "contentDigest": "009839e0246ec60836fc68a656e82237",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

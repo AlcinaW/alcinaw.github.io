@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/alcina/Documents/Development/alcinaw.github.io/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3ca2744efb80048e2db7a322026e2039",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1064,17 +1055,35 @@
         "siteUrl": "https://www.alcinawong.com",
         "description": "Alcina Wong's Portfolio"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-10T07:06:47.204Z",
+      "buildTime": "2019-02-10T09:05:25.728Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "009839e0246ec60836fc68a656e82237",
+        "contentDigest": "03990b1412fb94a2b6a3e1976aa06f9d",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "86d391e6cebfdd45db5b31eb41b2d62e",
+        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -1271,9 +1280,9 @@
       "query": "",
       "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/cemc.js"
     },
-    "/Users/alcina/Documents/Development/alcinaw.github.io/.cache/dev-404-page.js": {
+    "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-offline/app-shell.js": {
       "query": "",
-      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/.cache/dev-404-page.js"
+      "componentPath": "/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-offline/app-shell.js"
     }
   },
   "staticQueryComponents": {

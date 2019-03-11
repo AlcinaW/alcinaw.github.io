@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
             },
             {
               name: "keywords",
-              content: "web development, web design, graphic design, Toronto"
+              content: "web development, web design, designer, developer, graphic design, Toronto"
             }
           ]}
           // bodyAttributes={{ class: 'has-navbar-fixed-top' }}

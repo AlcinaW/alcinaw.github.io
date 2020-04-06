@@ -42,10 +42,10 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="hero is-large section-televox">
+    <section className="hero is-small section-televox">
       <div className="hero-body">
         <div className="container has-text-centered">
-          <h2 className="subtitle is-small has-text-light">Responsive Web Design</h2>
+          <h2 className="subtitle is-small has-text-light">Web Design</h2>
           <h3 className="title is-medium has-text-white">SchoolMessenger / TeleVox</h3>
           <p><Link to="/schoolmessenger">View SchoolMessenger</Link></p>
         </div>

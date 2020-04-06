@@ -1,3 +1,3 @@
 # Portfolio site
  
-[Website](https://alcinaw.github.io)
+[Personal Website](https://alcinaw.github.io)

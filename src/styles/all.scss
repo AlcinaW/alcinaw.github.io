@@ -1,0 +1,163 @@
+@charset "utf-8";
+@import "~bulma";
+@import "./variables.scss";
+
+//- Full Page Height
+#___gatsby {
+  > div {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .site-content {
+    flex: 1;
+  }
+  .navbar, .footer {
+    background-color: $primary-blue;
+    .nav-icon {
+      width: 3em;
+      margin: 0;
+      padding: 0;
+    }
+    &-item {
+      border: 1px dotted transparent;
+      &:hover, &:focus {
+        border: 1px dotted $off-white;
+      }
+    }
+  }
+  hr {
+    background-color: $divider;
+    max-width: 3em;
+    margin: 1em auto;
+  }
+  .section-one{
+      background-color: $primary-blue;
+  }
+  .section-imcba {
+    background: #C75300;
+    background-image: url(../images/imcba.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-upchain {
+    background: #005959;
+    background-image: url(../images/upchain.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-televox {
+    background: cornflowerblue;
+    background-image: url(../images/schoolmessenger.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-canadacomputers {
+    background: midnightblue;
+    background-image: url(../images/canadacomputers.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-cemc {
+    background: darkcyan;
+    background-image: url(../images/cemc.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .section-design {
+    background: #C74D4D;
+    background-image: url(../images/design.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .icon-star {
+    width: 3em;
+  }
+  .icon-orange {
+    width: 3em;
+    margin: 1em auto;
+  }
+  .tile {
+    .tile-image {
+      max-height: 1.85em;
+      width: auto;
+      margin: .5em auto;
+    }
+  }
+  h1, h2 {
+    font-family: $font-rubik;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    font-weight: 400;
+  }
+  h2 {
+    font-weight: 300;
+  }
+  h3, h4, p, a, li {
+    font-family: $font-ptserif;
+  }
+  p, li {
+    font-size: 1.2rem;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+  img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  a {
+    text-decoration-skip-ink: auto;
+    text-decoration: underline $link-underline;
+    border: 2px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    &:focus {
+      color: white;
+      text-decoration-skip-ink: auto;
+      text-decoration: underline $off-white;
+      cursor: pointer;
+      background: $primary-blue;
+    }
+    &:hover {
+      color: white;
+      text-decoration-skip-ink: auto;
+      text-decoration: underline $primary-blue;
+      cursor: pointer;
+      background: $primary-blue;
+    }
+  }
+  .hero{
+    a {
+      color: ghostwhite;
+      text-decoration-skip-ink: auto;
+      text-decoration: underline $link-underline;
+      border: 2px solid rgba(0, 0, 0, 0);
+      cursor: pointer;
+      &:focus {
+        color: black;
+        text-decoration-skip-ink: auto;
+        text-decoration: underline $off-white;
+        cursor: pointer;
+        background: $off-white;
+      }
+      &:hover {
+        color: black;
+        text-decoration-skip-ink: auto;
+        text-decoration: underline $off-white;
+        cursor: pointer;
+        background: $off-white;
+      }
+    }
+  }
+  .content-footer {
+    a {
+      font-size: 1.2rem;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+  }
+}

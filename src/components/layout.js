@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
 
-import "./all.scss";
+import "../styles/all.scss";
 import Header from "./header";
 import Footer from "./footer";
 
@@ -32,7 +32,7 @@ const Layout = ({ children }) => (
               content: "web development, web design, designer, developer, graphic design, Toronto"
             }
           ]}
-          // bodyAttributes={{ class: 'has-navbar-fixed-top' }}
+        // bodyAttributes={{ class: 'has-navbar-fixed-top' }}
         >
           <html lang="en" />
         </Helmet>

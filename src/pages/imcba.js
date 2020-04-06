@@ -21,7 +21,7 @@ const UCPage = () => (
     <section className="portfolio-page">
       <div className="container">
         <div className="column is-8 is-offset-2 has-text-centered">
-          <p>I held the position of Front-End Developer at the IMC Business Architecture development agency from April 2019 to March 2020.</p>
+          <p>I held the position of Front-End Developer at IMC Business Architecture development agency from April 2019 to March 2020.</p>
         </div>
       </div>
     </section>
@@ -55,11 +55,11 @@ const UCPage = () => (
       <div className="container">
         <div className="column is-three-fifths is-offset-one-fifth">
           <hr></hr>
-          <h3 className="title is-small has-text-centered">User interface design &amp; development</h3>
+          <h3 className="title is-small has-text-centered">User interface &amp; development</h3>
           {/* <img src={orange} alt="orange fruit" className="icon-orange is-block"></img> */}
-          <p>As a part of the Engineering team at IMC, I worked closely with product managers and designers to fulfill the front-end development needs for a variety of client projects. The key tools used were Adobe XD, Visual Studio, Git, BrowserStack, Azure DevOps, 7Pace Timetracker, CSS/LESS/BEM, Chrome Lighthouse, TalkBack, screen-readers, and Agility CMS.</p>
-          <p>Through the use of browser comparison tools and manual front-end accessibility testing, I worked with the senior front-end developer to create new designs for games and campaigns, as well as resolving client requests. By reviewing Adobe XD prototypes created by the design team with tools like <a href="https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll?hl=en" target="_blank" rel="noopener noreferrer">Color Contrast Analyzer</a> and knowledge of WCAG principles, I gave feedback on new designs.</p>
-          <p>From January to February 2020, I contributed to an internal research project to build a user interface component library in React using Storybook and styled-components. Because I had previously worked on projects at IMC using the <a href="https://akveo.github.io/nebular/" target="_blank" rel="noopener noreferrer">Nebular UI kit</a> with Angular, as well as <a href="https://akveo.github.io/nebular/" target="_blank" rel="noopener noreferrer">Material UI</a> in React, I recommended tools that could bridge the gap between the intensive custom CSS styling of some client projects and reusability.</p>
+          <p>As a part of the Engineering team at IMC, I worked closely with product managers and designers to fulfill the front-end development needs for client projects. The key tools used were Adobe XD, Visual Studio, Git, BrowserStack, Azure DevOps, 7Pace Timetracker, CSS/LESS/BEM, Chrome Lighthouse, screen readers, and Agility CMS.</p>
+          <p>Through the use of browser comparison tools and front-end testing, I worked with the senior front-end developer to create web applications for games and campaigns, as well as resolving client requests. By reviewing Adobe XD prototypes created by the design team with tools like Color Contrast Analyzer and knowledge of WCAG principles, I gave feedback on new designs. Often the designs required building and styling new components from scratch with bilingual requirements in mind. Files exported from Adobe XD and assets provided by the client were prepared for development and deployment, with special attention to brand requirements.</p>
+          <p>From January to February 2020, I contributed to an internal research project to build an user interface component library in React using Storybook and styled-components. Because I had previously worked on projects at IMC using the <a href="https://akveo.github.io/nebular/" target="_blank" rel="noopener noreferrer">Nebular UI kit</a> with Angular, as well as <a href="https://material-ui.com/" target="_blank" rel="noopener noreferrer">Material UI</a> in React, I recommended tools that could bridge the gap between the intensive custom CSS styling of some client projects, and reusability.</p>
         </div>
       </div>
     </section>

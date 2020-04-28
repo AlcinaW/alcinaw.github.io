@@ -29,7 +29,11 @@ const Layout = ({ children }) => (
             },
             {
               name: "keywords",
-              content: "web development, web design, designer, developer, graphic design, Toronto"
+              content: "web development, web design, designer, developer, graphic design, lettering, software engineering, Toronto"
+            },
+            {
+              name: "image",
+              content: "./../images/aw-favicon-icon-blue.png"
             }
           ]}
         // bodyAttributes={{ class: 'has-navbar-fixed-top' }}

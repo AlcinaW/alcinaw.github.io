@@ -5,7 +5,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---node-modules-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("/Users/alcina/Documents/Development/alcinaw.github.io/node_modules/gatsby-plugin-offline/app-shell.js"))),
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/alcina/Documents/Development/alcinaw.github.io/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/404.js"))),
   "component---src-pages-canadacomputers-js": hot(preferDefault(require("/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/canadacomputers.js"))),
   "component---src-pages-cemc-js": hot(preferDefault(require("/Users/alcina/Documents/Development/alcinaw.github.io/src/pages/cemc.js"))),

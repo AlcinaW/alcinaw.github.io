@@ -13,7 +13,7 @@
     flex: 1;
   }
   .navbar, .footer {
-    background-color: $primary-blue;
+    background-color: white;
     .nav-icon {
       width: 3em;
       margin: 0;
@@ -26,13 +26,16 @@
       }
     }
   }
+  .footer {
+    background-color: pink;
+  }
   hr {
     background-color: $divider;
     max-width: 3em;
     margin: 1em auto;
   }
   .section-one{
-      background-color: $primary-blue;
+      background-color: white;
   }
   .section-imcba {
     background: #C75300;

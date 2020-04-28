@@ -216,7 +216,7 @@ class RouteAnnouncer extends _react.default.Component {
         pageName = document.title;
       }
 
-      const pageHeadings = document.getElementById(`gatsby-focus-wrapper`).getElementsByTagName(`h1`);
+      const pageHeadings = document.querySelectorAll(`#gatsby-focus-wrapper h1`);
 
       if (pageHeadings && pageHeadings.length) {
         pageName = pageHeadings[0].textContent;
@@ -232,7 +232,7 @@ class RouteAnnouncer extends _react.default.Component {
   }
 
   render() {
-    return _react.default.createElement("div", (0, _extends2.default)({}, _routeAnnouncerProps.RouteAnnouncerProps, {
+    return /*#__PURE__*/_react.default.createElement("div", (0, _extends2.default)({}, _routeAnnouncerProps.RouteAnnouncerProps, {
       ref: this.announcementRef
     }));
   }
@@ -266,7 +266,7 @@ class RouteUpdates extends _react.default.Component {
   }
 
   render() {
-    return _react.default.createElement(_react.default.Fragment, null, this.props.children, _react.default.createElement(RouteAnnouncer, {
+    return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, this.props.children, /*#__PURE__*/_react.default.createElement(RouteAnnouncer, {
       location: location
     }));
   }

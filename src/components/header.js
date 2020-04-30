@@ -10,36 +10,27 @@ const Header = ({ siteTitle }) => (
     aria-label="main navigation"
   >
     <div className="">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item" title="Alcina Wong - Home">
+      <div className="">
+        <Link to="/" className="" title="Alcina Wong - Home">
           {/* {siteTitle} */}
           <img src={wong} alt="Alcina Wong" className="nav-icon"></img>
         </Link>
-
-        {/* TODO Switch to component + add JS toggle to open  */}
-        <a href="#" role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
       </div>
       {
-        <div id="navbar-menu" className="navbar-menu is-static">
-          <div className="navbar-end">
-            <div class="navbar-item">
-              <Link to="/design" className="navbar-item is-secondary">
-                About
+        <div id="" className="">
+          <div className="">
+            <Link to="/design" className="">
+              About
           </Link>
-              <Link to="/design" className="navbar-item is-secondary">
-                Contact
+            <Link to="/design" className="">
+              Contact
           </Link>
-              <Link to="/design" className="navbar-item is-secondary">
-                Blog
+            <Link to="/design" className="">
+              Blog
           </Link>
-              <Link to="/design" className="navbar-item is-secondary">
-                Lettering
+            <Link to="/design" className="">
+              Lettering
           </Link>
-            </div>
           </div>
         </div>
       }

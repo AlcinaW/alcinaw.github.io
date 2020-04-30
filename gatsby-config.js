@@ -4,6 +4,7 @@ module.exports = {
     icon: 'src/images/aw-favicon-icon-blue.png',
     siteUrl: `https://www.alcinawong.com`,
     description: `Alcina Wong's Portfolio`,
+    image: 'src/images/aw-favicon-icon-blue.png',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

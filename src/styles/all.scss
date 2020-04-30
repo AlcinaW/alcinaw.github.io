@@ -4,10 +4,8 @@
 
 //- Full Page Height
 #___gatsby {
-  > div {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  .navbar-menu {
+    display: block;
   }
   .site-content {
     flex: 1;
@@ -32,7 +30,6 @@
   hr {
     background-color: $divider;
     max-width: 3em;
-    margin: 1em auto;
   }
   .section-one{
       background-color: white;
@@ -119,14 +116,12 @@
     border: 2px solid rgba(0, 0, 0, 0);
     cursor: pointer;
     &:focus {
-      color: white;
       text-decoration-skip-ink: auto;
       text-decoration: underline $off-white;
       cursor: pointer;
       background: $primary-blue;
     }
     &:hover {
-      color: white;
       text-decoration-skip-ink: auto;
       text-decoration: underline $primary-blue;
       cursor: pointer;
@@ -135,7 +130,6 @@
   }
   .hero{
     a {
-      color: ghostwhite;
       text-decoration-skip-ink: auto;
       text-decoration: underline $link-underline;
       border: 2px solid rgba(0, 0, 0, 0);
